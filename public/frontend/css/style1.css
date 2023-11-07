@@ -1,0 +1,70 @@
+
+:root {
+    /* font families */
+    --font-family:          "Poppins", Arial, Helvetica, sans-serif;
+    --font-family-alt:      "Poppins", Arial, Helvetica, sans-serif;
+
+    /* text */
+    --color-text-primary:    #000;
+    --color-text-secondary:  #fff;
+    --color-text-help:       #979797;
+    --color-text-title:      #191919;
+    --color-text-menu:       #979797;
+    
+    /* status */
+    --color-status-default:  #8C4300;
+    --color-status-defrgb:   140, 67, 0;
+    --color-status-hover:    #FF6280;
+    --color-status-hovrgb:   255, 98, 128;
+    --color-status-disabled: #C4C4C4;
+    --color-recommended:     #248355;
+    
+    /* borders */
+    --color-border-default:  #C4C4C4;
+    --color-border-focus:    #979797;
+    
+    /* page bg */
+    --color-bg-page:         #F7F8FA;
+    --color-bg-header:       #fff;
+    --color-bg-footer:       #F7F8FA;
+    --color-bg-menu:         #F7F8FA;
+    --color-bg-box:          #fff;
+    
+    /* icons */
+    --color-icon-primary:    #883bc7;
+    --color-icon-secondary:  #eaa500;
+    
+    /* badges */
+    --color-badge-bad:      #F30130;
+    --color-badge-good:     #2456E7;
+    --color-badge-verygood: #248355;
+    
+    /* providers */
+    --color-experian:        #004393;
+    --color-equifax:         #B32541;
+    --color-transunion:      #03A6CB;
+    
+    /* banners */
+    --color-cbc:            #FE9801;
+    --color-self:           #4CADEA;
+
+    /* messages */
+    --color-warn:            #ffd300;
+    --color-error:           #FF0032;
+    --color-success:         #248355;
+}
+@media screen and (max-width: 45em) {
+    :root {
+        --border-radius:            30px;
+        --input-height:             60px;
+        --menu-icon:                40px;
+    }
+}
+
+@media screen and (min-width: 45em) {
+    :root {
+        --border-radius:            35px;
+        --input-height:             70px;
+        --menu-icon:                50px;
+    }
+}

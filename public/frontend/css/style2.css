@@ -1,0 +1,203 @@
+
+.is-home .home__hero-title {
+    color: var(--color-status-default);
+}
+.is-home .home__hero-subtitle {
+    color: var(--color-text-primary);
+}
+
+.is-home .o-button {
+    background-color: var(--color-status-hover);
+    color: var(--color-text-secondary);
+}
+
+.is-home .o-button:hover {
+    background-color: var(--color-status-default);
+    color: var(--color-text-secondary);
+}
+.logo__title_text {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-status-default);
+}
+.is-home .img-svginject {
+    width: 100%;
+    height: 100%;
+}
+
+.signupnav__item.is-completed, .signupnav__item.is-current {
+    border-bottom-color: transparent;
+}
+.signupnav__item.is-completed:after, .signupnav__item.is-current:after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: -25px;
+    width: 50px;
+    height: 2px;
+}
+.signupnav__item.is-completed:after {
+    background-color: var(--color-status-default);
+}
+.signupnav__item.is-current:after {
+    background-color: var(--color-border-default);
+}
+.signupnav__item.is-completed:last-of-type:after, .signupnav__item.is-current:last-of-type:after {
+    display: none;
+}
+@media only screen and (min-width: 45em) and (max-width: 59.999em) {
+    .is-home .home__hero {
+        height: 550px;
+    }
+}
+@media only screen and (min-width: 60em) and (max-width: 74.999em) {
+    .is-home .home__hero {
+        height: 650px;
+    }
+}
+@media only screen and (min-width: 75em) {
+    .is-home .home__hero {
+        height: 800px;
+    }
+}
+.is-home .home__hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 44.999em) {
+    .is-home .home__hero-tag {
+        padding-bottom: 12px;
+    }
+}
+ .is-home .home__hero-bg {
+    inset: unset;
+    right: 0;
+    height: 100%;
+}
+
+@media only screen and (max-width: 44.999em) {
+    .is-home .home__hero.is-business_2 {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 24px 0;
+    }
+    .is-home .home__hero.is-business_2 .home__hero-bg {
+        position: relative;
+    }
+}
+@media only screen and (min-width: 45em) and (max-width: 59.999em) {
+    .is-home .home__hero.is-business_2 .home__hero-bg {
+        max-height: 300px;
+    }
+}
+@media only screen and (min-width: 60em) and (max-width: 74.999em) {
+    .is-home .home__hero.is-business_2 .home__hero-bg {
+        max-height: 400px;
+    }
+}
+@media only screen and (min-width: 75em) {
+    .is-home .home__hero.is-business_2 .home__hero-bg {
+        max-height: 500px;
+    }
+}
+
+.is-home .home__steps-graph {
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.is-home .home__steps {
+    background: #EBE7E7;
+}
+.is-home .step1 svg,
+.is-home .step2 svg,
+.is-home .step3 svg {
+    width: 80%;
+}
+.is-home .step1 .home__steps-graph,
+.is-home .step3 .home__steps-graph {
+    text-align: left;
+}
+.is-home .step2 .home__steps-graph {
+    text-align: right;
+}
+@media only screen and (max-width: 59.999em) {
+    .is-home .step1 .home__steps-graph,
+    .is-home .step2 .home__steps-graph,
+    .is-home .step3 .home__steps-graph {
+        text-align: center;
+    }
+}
+
+
+.is-home .home__pricing {
+    background-color: rgba(var(--color-status-defrgb), 0.2);
+}
+.is-home .home__pricing svg {
+    width: 75% !important;
+}
+.is-home .home__pricing .home__title {
+    color: var(--color-status-default);
+}
+
+.is-home .home__signup {
+    background-color: rgba(var(--color-status-hovrgb), 0.2);
+}
+.is-home .home__more-backgr {
+    right: 150px !important;
+    left: unset !important;
+    width: 160px;
+}
+.is-home .home__signup .home__title {
+    color: var(--color-status-hover);
+}
+@media only screen and (max-width: 44.999em) {
+    .is-home .home__more-backgr {
+        width: 100%;
+    }
+}
+
+.is-current #enroll_step_01 .iconcol1,
+.is-current #enroll_step_02 .iconcol1,
+.is-current #enroll_step_03 .iconcol1,
+.is-current #enroll_step_04 .iconcol1 {
+    fill: var(--color-status-default);
+}
+.is-completed #enroll_step_01 .iconcol1,
+.is-completed #enroll_step_02 .iconcol1,
+.is-completed #enroll_step_03 .iconcol1,
+.is-completed #enroll_step_04 .iconcol1 {
+    fill: var(--color-status-default);
+}
+
+.nav__link:hover #menu-home-icon .iconcol1,
+.nav__link:hover #menu-scores-icon .iconcol1,
+.nav__link:hover #menu-report-icon .iconcol1,
+.nav__link:hover #menu-profile-icon .iconcol1 {
+    fill: var(--color-status-default);
+}
+.nav__link:hover #menu-home-icon .iconcol2,
+.nav__link:hover #menu-scores-icon .iconcol2,
+.nav__link:hover #menu-report-icon .iconcol2,
+.nav__link:hover #menu-profile-icon .iconcol2 {
+    fill: var(--color-status-hover);
+}
+
+.is-current #menu-home-icon .iconcol2,
+.is-current #menu-scores-icon .iconcol2,
+.is-current #menu-report-icon .iconcol2,
+.is-current #menu-profile-icon .iconcol2 {
+    fill: var(--color-status-hover);
+}
+.is-current #menu-home-icon .iconcol1,
+.is-current #menu-scores-icon .iconcol1,
+.is-current #menu-report-icon .iconcol1,
+.is-current #menu-profile-icon .iconcol1 {
+    fill: var(--color-status-default);
+}
